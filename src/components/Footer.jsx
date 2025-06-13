@@ -1,5 +1,5 @@
 import React from 'react'
-import ship from '../images/Shipping.png'
+import ship from '../images/shipping.png'
 import logo from '../images/logo.png'
 import { NavLink } from 'react-router-dom'
 
