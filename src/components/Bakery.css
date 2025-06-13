@@ -1,0 +1,27 @@
+.bg-light{
+    color:#6b7280 ;
+    padding: 7rem;
+}
+.productlink{
+    text-decoration: none;
+}
+
+@media (max-width: 600px){
+    .bg-light{
+        color:#6b7280 ;
+        padding: .5rem;
+        }
+}
+
+@media only screen and (min-width: 768px){
+    .bg-light{
+        color:#6b7280 ;
+        padding: .5rem;
+        }
+}
+@media only screen and (min-width: 992px){
+    .bg-light{
+        color:#6b7280 ;
+        padding: 7rem;
+    }
+}

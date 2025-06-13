@@ -1,0 +1,275 @@
+/* login section */
+.registerpage{
+    background-color: aliceblue;
+    padding: 20px 100px;
+}
+.logpagebox{
+    display: flex;
+}
+
+.logpagesubbx1{
+    width: 70%;
+    padding: 50px 100px;
+}
+.logpagesubbx1>form>label{
+    font-size: 25px;
+    font-weight: 600;
+}
+input{
+    padding: 10px;
+    width: 100%;
+}
+.logpagesubbx2{
+ width: 30%;
+ padding: 150px 0px;
+}
+.logpagesubbx2>p{
+    font-size: 20px;
+    font-weight: 400;
+}
+.registerbtn2{
+    border: none;
+    background-color: #4EB528;
+    padding: 10px 60px;
+    font-size: 22px;
+    font-weight: bold;
+    color: white;
+    border-radius: 10px;
+}
+.logbtn{
+    border: none;
+    background-color: #4EB528;
+    padding: 10px 60px;
+    font-size: 22px;
+    font-weight: bold;
+    color: white;
+    border-radius: 10px;
+}
+
+.registerbtn1{
+    border: none;
+    background-color: #4EB528;
+    padding: 10px 60px;
+    font-size: 22px;
+    font-weight: bold;
+    color: white;
+    border-radius: 10px;
+}
+
+.signbtn{
+    border: none;
+    background-color: #4EB528;
+    padding: 10px 60px;
+    font-size: 22px;
+    font-weight: bold;
+    color: white;
+    border-radius: 10px;
+}
+@media only screen and (max-width: 600px){
+.registerpage{
+    background-color: aliceblue;
+    padding: 20px;
+}
+.logpagebox{
+   flex-direction: column;
+}
+
+.logpagesubbx1{
+    width: 100%;
+    padding: 10px;
+}
+.logpagesubbx1>form>label{
+    font-size: 25px;
+    font-weight: 600;
+}
+input{
+    padding: 10px;
+    width: 100%;
+}
+.logpagesubbx2{
+ width: 100%;
+ padding: 30px;
+}
+.logpagesubbx2>p{
+    font-size: 20px;
+    font-weight: 400;
+}
+.registerbtn2{
+    border: none;
+    background-color: #4EB528;
+    padding: 10px 60px;
+    font-size: 22px;
+    font-weight: bold;
+    color: white;
+    border-radius: 10px;
+}
+.logbtn{
+    border: none;
+    background-color: #4EB528;
+    padding: 10px 60px;
+    font-size: 22px;
+    font-weight: bold;
+    color: white;
+    border-radius: 10px;
+}
+
+.registerbtn1{
+    border: none;
+    background-color: #4EB528;
+    padding: 10px 60px;
+    font-size: 22px;
+    font-weight: bold;
+    color: white;
+    border-radius: 10px;
+}
+
+.signbtn{
+    border: none;
+    background-color: #4EB528;
+    padding: 10px 60px;
+    font-size: 22px;
+    font-weight: bold;
+    color: white;
+    border-radius: 10px;
+}
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 992px){
+.registerpage{
+    background-color: aliceblue;
+    padding: 20px 50px;
+}
+.logpagebox{
+    display: flex;
+}
+
+.logpagesubbx1{
+    width: 60%;
+    padding: 50px;
+}
+.logpagesubbx1>form>label{
+    font-size: 25px;
+    font-weight: 600;
+}
+input{
+    padding: 10px;
+    width: 100%;
+}
+.logpagesubbx2{
+ width: 30%;
+ padding: 100px 0px;
+}
+.logpagesubbx2>p{
+    font-size: 20px;
+    font-weight: 400;
+}
+.registerbtn2{
+    border: none;
+    background-color: #4EB528;
+    padding: 10px 60px;
+    font-size: 22px;
+    font-weight: bold;
+    color: white;
+    border-radius: 10px;
+}
+.logbtn{
+    border: none;
+    background-color: #4EB528;
+    padding: 10px 60px;
+    font-size: 22px;
+    font-weight: bold;
+    color: white;
+    border-radius: 10px;
+}
+
+.registerbtn1{
+    border: none;
+    background-color: #4EB528;
+    padding: 10px 60px;
+    font-size: 22px;
+    font-weight: bold;
+    color: white;
+    border-radius: 10px;
+}
+
+.signbtn{
+    border: none;
+    background-color: #4EB528;
+    padding: 10px 60px;
+    font-size: 22px;
+    font-weight: bold;
+    color: white;
+    border-radius: 10px;
+}
+
+}
+
+@media only screen and (min-width: 993px) and (max-width: 1200px){
+    .registerpage{
+    background-color: aliceblue;
+    padding: 20px 100px;
+}
+.logpagebox{
+    display: flex;
+}
+
+.logpagesubbx1{
+    width: 70%;
+    padding: 50px 100px;
+}
+.logpagesubbx1>form>label{
+    font-size: 25px;
+    font-weight: 600;
+}
+input{
+    padding: 10px;
+    width: 100%;
+}
+.logpagesubbx2{
+ width: 30%;
+ padding: 150px 0px;
+}
+.logpagesubbx2>p{
+    font-size: 20px;
+    font-weight: 400;
+}
+.registerbtn2{
+    border: none;
+    background-color: #4EB528;
+    padding: 10px 60px;
+    font-size: 22px;
+    font-weight: bold;
+    color: white;
+    border-radius: 10px;
+}
+.logbtn{
+    border: none;
+    background-color: #4EB528;
+    padding: 10px 60px;
+    font-size: 22px;
+    font-weight: bold;
+    color: white;
+    border-radius: 10px;
+}
+
+.registerbtn1{
+    border: none;
+    background-color: #4EB528;
+    padding: 10px 60px;
+    font-size: 22px;
+    font-weight: bold;
+    color: white;
+    border-radius: 10px;
+}
+
+.signbtn{
+    border: none;
+    background-color: #4EB528;
+    padding: 10px 60px;
+    font-size: 22px;
+    font-weight: bold;
+    color: white;
+    border-radius: 10px;
+}
+}

@@ -1,0 +1,169 @@
+
+.paylnk{
+   text-decoration: none;
+   color: white;
+}
+.section6{
+    display: flex;
+    margin:0px 120px 120px 120px;
+    gap: 20px;
+ }
+ .sec6box1{
+    padding: 20px 40px;
+    width: 68%;
+    background-color:#e8f9f6 ;
+    border-radius: 15px;
+ }
+ .sec6box2{
+    padding: 20px;
+    width: 32%;
+    background-color:#e8f9f6 ;
+    border-radius: 15px;
+    height: 50%;
+ }
+ .sec6subbx{
+    display: flex;
+    justify-content: space-between;
+ }
+ .sec6subbx2{
+    display: flex;
+    justify-content: space-between;
+ }
+  .sec6subbx21{
+    border-top: 1px solid black;
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-between;
+ }
+ .proceedbtn{
+    background-color: #4EB528;
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+ }
+ table{
+  width: 100%;
+ }
+
+ #input1{
+  background: transparent;
+  border: 2px solid black;
+  width: 195%;
+  padding: 7px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+ }
+
+ input{
+  background: transparent;
+  border: 2px solid black;
+  width: 95%;
+  padding: 7px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  font-size:18px;
+ }
+
+ input[type=radio] {
+    width: 20px;
+    height: 20px;
+    }
+
+    h4{
+      font-size: 20px;
+    }
+    .card3{
+      font-size: 22px;
+      font-weight: bold;
+    }
+
+
+@media only screen and (max-width: 600px) {
+ /* section6 content */
+       .section6{
+    flex-direction: column;
+    margin:10px;
+ }
+ .sec6box1{
+    padding:10px;
+    width: 100%;
+ }
+ .sec6box2{
+    padding: 10px;
+    width: 100%;
+ }
+ .sec6subbx{
+    display: flex;
+    justify-content: space-between;
+ }
+
+ h4{
+  font-size: 18px;
+ }
+ .card3{
+  font-size: 20px;
+ }
+
+ .sec6subbx>div>img{
+  width: 40px;
+ }
+
+}
+
+@media only screen and (min-width: 601px) and (max-width: 768px) {
+
+/* section6 content */
+ .section6{
+    display: flex;
+    margin: 20px;
+    gap: 20px;
+ }
+ .sec6box1{
+    padding: 20px 40px;
+    width: 65%;
+ }
+ .sec6box2{
+    padding: 20px;
+    width: 35%;
+ }
+
+}
+
+@media only screen and (min-width: 769px) and (max-width: 992px) {
+/* section6 content */
+ .section6{
+    display: flex;
+    margin: 85px 20px;
+    gap: 20px;
+ }
+ .sec6box1{
+    padding: 20px 40px;
+    width: 65%;
+ }
+ .sec6box2{
+    padding: 20px;
+    width: 35%;
+ }
+
+}
+
+@media only screen and (min-width: 993px) and (max-width: 1200px) {
+
+/* section6 content */
+ .section6{
+    display: flex;
+    margin: 180px 20px;
+    gap: 20px;
+ }
+ .sec6box1{
+    padding: 20px 40px;
+    width: 65%;
+ }
+ .sec6box2{
+    padding: 20px;
+    width: 35%;
+ }
+}

@@ -1,0 +1,125 @@
+.cartmain{
+    margin: 0px 150px 30px 150px;
+    display: flex;
+    gap: 20px;
+    background-color:transparent;
+
+}
+.carsect1{
+    background-color: #d4e7cead;
+    width: 65%;
+    border-radius: 10px;
+}
+.carsect3{
+    background-color: #d4e7cead;
+    width: 90%;
+    border-radius: 10px;
+    justify-content: space-between;
+    display: flex;
+    border: 1px solid red;
+}
+.carsect1>div{
+    margin: 30px;
+    align-items: center;
+    align-content: center;
+}
+.carsect2{
+    background-color: #d4e7cead;
+    width: 35%;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+@media (max-width: 600px){
+
+    .cartmain{
+    margin: 0px 20px 30px 20px;
+    flex-direction: column;
+    gap: 20px;
+}
+.carsect1{
+    width: 100%;
+}
+.carsect3{
+    width: 100%;
+    border-radius: 10px;
+   flex-direction: column;
+   text-align: center;
+}
+.carsect1>div{
+    margin: 0px;
+    align-items: center;
+    align-content: center;
+}
+.carsect2{
+    width: 100%;
+}
+
+}
+@media only screen and (min-width: 768px){
+    .cartmain{
+    margin: 0px 80px 30px 80px;
+    display: flex;
+    gap: 20px;
+    background-color:transparent;
+
+}
+.carsect1{
+    background-color: #d4e7cead;
+    width: 65%;
+    border-radius: 10px;
+}
+.carsect3{
+    background-color: #d4e7cead;
+    width: 90%;
+    border-radius: 10px;
+    justify-content: space-between;
+    display: flex;
+    border: 1px solid red;
+}
+.carsect1>div{
+    margin: 30px;
+    align-items: center;
+    align-content: center;
+}
+.carsect2{
+    background-color: #d4e7cead;
+    width: 35%;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+}
+ @media only screen and (min-width: 992px){
+    .cartmain{
+    margin: 0px 150px 30px 150px;
+    display: flex;
+    gap: 20px;
+    background-color:transparent;
+
+}
+.carsect1{
+    background-color: #d4e7cead;
+    width: 65%;
+    border-radius: 10px;
+}
+.carsect3{
+    background-color: #d4e7cead;
+    width: 90%;
+    border-radius: 10px;
+    justify-content: space-between;
+    display: flex;
+    border: 1px solid red;
+}
+.carsect1>div{
+    margin: 30px;
+    align-items: center;
+    align-content: center;
+}
+.carsect2{
+    background-color: #d4e7cead;
+    width: 35%;
+    padding: 20px;
+    border-radius: 10px;
+}
+}

@@ -1,0 +1,36 @@
+        .text-center{
+            background-color: #f3f5f7;
+        padding: 150px;
+       }
+        .success-button {
+            background-color: #4caf50;
+            color: white;
+        }
+        .success-button:hover {
+            background-color: #43a047;
+        }
+        .ctnbtn{
+            text-decoration: none;
+            color: white;
+        }
+
+@media (max-width: 600px){
+.text-center{
+            background-color: #f3f5f7;
+        padding: 50px;
+       }
+}
+
+@media only screen and (min-width: 768px){
+ .text-center{
+            background-color: #f3f5f7;
+        padding: 150px;
+       }
+}
+
+@media only screen and (min-width: 992px){
+.text-center{
+            background-color: #f3f5f7;
+        padding: 150px;
+       }
+}

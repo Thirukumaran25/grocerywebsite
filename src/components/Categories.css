@@ -1,0 +1,53 @@
+.catitems{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    margin: 0px 100px;
+    padding: 50px 0px;
+    gap: 20px;
+}
+.catsubitem{
+    width: 15rem;
+    text-align: center;
+}
+.catsubitem1{
+ height: 13rem;
+}
+.catsubitem1>img{
+    width: 100%;
+    height: 100%;
+}
+.catsubitem>h2{
+    padding: 10px;
+    font-weight: 600;
+    font-size: 28px;
+}
+
+@media (max-width: 600px){
+  .catitems{
+    grid-template-columns: repeat(1,1fr);
+    margin: 10px;
+    justify-items: center;
+}
+}
+
+@media only screen and (min-width: 768px){
+    .catitems{
+    grid-template-columns: repeat(2,1fr);
+    margin: 10px;
+    justify-items: center;
+}
+
+}
+@media only screen and (min-width: 992px){
+    .catitems{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    margin: 0px 10px;
+    padding: 60px 0px;
+    gap: 15px;
+}
+.catsubitem{
+    width: 14rem;
+    text-align: center;
+}
+}
