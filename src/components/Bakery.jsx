@@ -78,7 +78,7 @@ function Bakery() {
     
               {/* Sort Section */}
               <section className="col-md-9 px-5">
-                <h2 className="fs-4 fw-bold" style={{ color: '#4EB528', textDecoration: "underline" }}>Vegetable</h2>
+                <h2 className="fs-4 fw-bold" style={{ color: '#4EB528', textDecoration: "underline" }}>Bakery </h2>
                 <div className="d-flex flex-column flex-md-row justify-content-end mb-4">
                   <div className="d-flex gap-3 align-items-center">
                     <label htmlFor="sortBy" className="form-label fw-bold text-secondary mb-0">Sort By:</label>
