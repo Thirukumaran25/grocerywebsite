@@ -22,7 +22,7 @@ function Header() {
         </div>
         <div className='subhead2'>
             <div className='searchbar p-2'>
-            <input className='px-3' type="text" placeholder='Search for products' />
+            <input className='px-3' type="text" placeholder='Search for products' style={{borderRadius:"0px"}} />
             <button ><img rel='icon' src={search} alt="" />Search</button>
             </div>
             <div className='navbar'>
