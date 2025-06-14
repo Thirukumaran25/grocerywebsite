@@ -43,7 +43,7 @@ function Categories() {
                <NavLink to="/Bakery" style={{textDecoration:"none",color:"black"}}><div className='catsubitem1'>
                     <img src={catimage5} alt="" />
                 </div>
-                <h2>Backery</h2></NavLink>
+                <h2>Bakery</h2></NavLink>
             </div>
             <div className='catsubitem'>
                <NavLink to="/Pantry" style={{textDecoration:"none",color:"black"}}><div className='catsubitem1'>
